@@ -65,7 +65,7 @@ const runOperation = operation => {
             break;
 
         case 'del':
-            input.value = input.value.slice(0, input.value - length - 1);
+            input.value = input.value.slice(0, input.value.length - 1);
             break;
 
         case 'equals':
